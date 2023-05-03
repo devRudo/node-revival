@@ -1,0 +1,4 @@
+Writing to file content from sample.txt, content from sample1.txt
+Writing to file content from sample.txt, content from sample1.txt
+Writing to file content from sample.txt, content from sample1.txt
+Writing to file content from sample.txt, content from sample1.txt

@@ -1,0 +1,6 @@
+Writing to filecontent from sample.txt, content from sample1.txt
+Writing to filecontent from sample.txt, content from sample1.txt
+Writing to filecontent from sample.txt, content from sample1.txt
+Writing to filecontent from sample.txt, content from sample1.txt
+Writing to filecontent from sample.txt, content from sample1.txt
+Writing to filecontent from sample.txt, content from sample1.txt
