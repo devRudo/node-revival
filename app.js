@@ -36,8 +36,16 @@
 // path
 // FileSystem
 // HTTP
+// util (promisify)
 
 
 // Event Loops 
 // Async Patterns
-// Event Emitter and Streams
+// Event Emitter and Streams (Used Heavily)
+
+//STREAMS 
+
+// Writeable
+// Readable
+// Duplex
+// Transform
