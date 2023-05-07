@@ -1,12 +1,12 @@
 // const fs = require('fs')
 
 // for(let i=0;i<=100000;i++){
-//     fs.writeFileSync(`./data/big-file.txt`, `Hello World ${i+1}\n`, {flag: 'a'})
+//     fs.writeFileSync(`../data/big-file.txt`, `Hello World ${i+1}\n`, {flag: 'a'})
 // }
 
 // const {createReadStream} = require('fs');
 
-// const stream = createReadStream('./data/big-file.txt', {
+// const stream = createReadStream('../data/big-file.txt', {
 //     highWaterMark: 90000,
 //     encoding: 'utf8'
 // })
@@ -22,9 +22,9 @@
 var http = require('http');
 var fs = require('fs');
 http.createServer(function (request, response) {
-    // const text = fs.readFileSync('./data/big-file.txt', 'utf8');
+    // const text = fs.readFileSync('../data/big-file.txt', 'utf8');
     // response.end(text);
-    const fileStream = fs.createReadStream('./data/big-file.txt', 'utf8');
+    const fileStream = fs.createReadStream('../data/big-file.txt', 'utf8');
     fileStream.on('open', () => {
         fileStream.pipe(response)
     })

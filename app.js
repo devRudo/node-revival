@@ -49,3 +49,9 @@
 // Readable
 // Duplex
 // Transform
+
+// CLIENT SERVER ARCHITECTURE
+// HTTP REQUEST RESPONSE CYCLE
+// GET, POST, PUT, PATCH, DELETE, OPTION
+
+// Node Express Server
